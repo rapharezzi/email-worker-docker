@@ -4,7 +4,7 @@ volumes:
 services:
   db:
     image: postgres:9.6
-    volume:
+    volumes:
       # volume dos dados
       - dados:/var/lib/postgresql/data
       # scripts
